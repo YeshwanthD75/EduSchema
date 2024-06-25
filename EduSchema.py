@@ -12,7 +12,7 @@ def create_connection():
         connection = mysql.connector.connect(
             host='localhost',
             user='root',
-            password='yesh2004',  # Replace with your MySQL password
+            password='your_password',  # Replace with your MySQL password
             database='education'  # Assuming 'education' database already exists
         )
         if connection.is_connected():
